@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121223;
+  color: #ffffff;
+}
+
+header {
+  background: #1b1b2f;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1b1b2f;
+  padding: 20px;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+.card h2 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.85em;
+  opacity: 0.6;
+}
